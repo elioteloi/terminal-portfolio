@@ -1,0 +1,77 @@
+body {
+    font-family: "Fira Code", "Consolas", "Monaco", monospace;
+    background: rgba(118, 114, 114, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    background-color: rgb(70, 60, 60);
+}
+#header {
+    display: flex;
+    justify-content: end;
+}
+
+.minimise {
+    padding: 6px;
+    border-radius: 8px;
+    margin: 2px;
+    background-color: rgb(13, 179, 13);
+    border-color: rgb(60, 184, 60);
+}
+
+.restore-down {
+    padding: 6px;
+    border-radius: 8px;
+    margin: 2px;
+    background-color: orange;
+    border-color: rgb(250, 178, 45);
+}
+
+.close {
+    padding: 6px;
+    border-radius: 8px;
+    margin: 2px;
+    background-color: red;
+    border-color: rgb(231, 87, 87);
+}
+
+label {
+    color: rgb(174, 233, 84);
+}
+
+input {
+    border:none;
+    outline: none;
+    background-color: #2a2c32;
+    color: white;
+    overflow-x: auto; white-space: nowrap;
+    width: 50px;
+}
+
+div, h3 {
+    color: rgb(233, 231, 231);
+}
+h3 {
+    font-size: 14px
+}
+span {
+    color:  rgb(174, 233, 84); 
+}
+
+
+pre {
+    color: white;
+    align-items: flex-end;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+#terminal {
+    background-color: #2a2c32;
+    padding: 20px;
+    border-radius: 8px;   
+}
