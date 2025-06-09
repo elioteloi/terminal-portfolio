@@ -1,6 +1,6 @@
 # terminal-portfolio
 
-A Front-End for a NAS (Network-attached storage) created in React-Native with react-native-document-picker and react-native-async-storage 
+A terminal portfolio made with HTML, CSS and Javascript
 
 ## Features
 
