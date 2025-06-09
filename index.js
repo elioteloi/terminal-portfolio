@@ -102,10 +102,10 @@ input === null || input === void 0 ? void 0 : input.addEventListener("keydown", 
                 div === null || div === void 0 ? void 0 : div.appendChild(inputTerminal);
                 target_1.value = "";
                 break;
-            case "--download":
+            case "resume --download":
                 var link = document.createElement("a");
-                link.href = "./EliotEloiCVENG.pdf";
-                link.download = "/images/EliotEloiCVENG.pdf";
+                link.href = "./images/EliotEloiCVENG.pdf";
+                link.download = "EliotEloiCVENG.pdf";
                 link.target = "_blank";
                 link.click();
                 break;

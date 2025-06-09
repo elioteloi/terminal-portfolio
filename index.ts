@@ -119,11 +119,11 @@ input?.addEventListener("keydown", (event) => {
                 div?.appendChild(inputTerminal!);
                 target.value = ""
                 break
-            case "--download":
+            case "resume --download":
                 const link = document.createElement("a")
                 
-                link.href = "./EliotEloiCVENG.pdf";
-                link.download = "/images/EliotEloiCVENG.pdf"
+                link.href = "./images/EliotEloiCVENG.pdf";
+                link.download = "EliotEloiCVENG.pdf"
                 link.target = "_blank";
                 link.click()
                 break
